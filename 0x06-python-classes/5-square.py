@@ -39,5 +39,5 @@ class Square:
         """prints the size of the square with '#' chatacter"""
         for i in range(self.__size):
             for x in range(self.__size):
-                print('#', end=" ")
-            print()
+                print('#', end="")
+            print("")
