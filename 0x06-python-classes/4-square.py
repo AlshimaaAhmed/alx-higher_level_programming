@@ -8,10 +8,6 @@ class Square:
         """ constructor.
         attribute:
           size (int): the size of square"""
-        if not isinstance(size, int):
-            raise ValueError("size must be an integer")
-        elif size < 0:
-            raise ValueError("size must be >= 0")
         self.__size = size
 
     @property
@@ -24,6 +20,10 @@ class Square:
         """ set the value of the size.
         Attributes:
           value(int): the value of the size"""
+        if not isinstance(value, int):
+            raise ValueError("size must be an integer")
+        elif value < 0:
+            raise ValueError("size must be >= 0")
         self.__size = value
 
     def area(self):
