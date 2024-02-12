@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-class Rectangle:
-    """ Rectangle module"""
+""" Rectangle module"""
 
-    
-    def __init__(self):
+
+class Rectangle:
         """ represent a rectangle"""
         pass
